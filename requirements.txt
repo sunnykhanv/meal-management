@@ -1,11 +1,15 @@
-fastapi[standard]
+fastapi
 uvicorn[standard]
 
 sqlalchemy
-psycopg2-binary #postgress adapter
+psycopg2-binary
 
 pydantic
 pydantic-settings
+pydantic[email]
 
 python-jose[cryptography]
+passlib[bcrypt]
+
 python-dotenv
+python-multipart
